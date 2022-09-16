@@ -13,10 +13,13 @@ const Input = ({ data }) => {
     console.log(data);
   return (
     <Card
+   
       key={data.jsonKey}
       sx={{
+        padding:"8px",
         display: "flex",
         direction: "row",
+        alignItems: "center",
         justifyContent: "space-between",
       }}
     >
