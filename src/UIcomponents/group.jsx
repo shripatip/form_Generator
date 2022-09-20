@@ -15,7 +15,7 @@ import {
 import InfoOutlined from "@mui/icons-material/InfoOutlined";
 const Group = ({ data }) => {
   const [radioVal, setRadioVal] = useState("newyork");
-
+//radio
   const rendergroupitems = (subElements) => {
     return (
       <Stack direction="column">
