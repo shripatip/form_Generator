@@ -9,7 +9,7 @@ import {
   Tooltip,
   Select,
 } from "@mui/material";
-//from
+//from it
 import RadioGrp from "../UIcomponents/radio"
 import Switcher from "../UIcomponents/switch";
 import Selector from "../UIcomponents/select";
