@@ -1,16 +1,7 @@
 import React from "react";
-import {
-  Box,
-  Card,
-  Typography,
-  Stack,
-  Button,
-  TextField,
-  Tooltip,
-  Select,
-} from "@mui/material";
-//from it
-import RadioGrp from "../UIcomponents/radio"
+//okk
+import { Box, Card, Typography, Stack, Button } from "@mui/material";
+import RadioGrp from "../UIcomponents/radio";
 import Switcher from "../UIcomponents/switch";
 import Selector from "../UIcomponents/select";
 import Group from "../UIcomponents/group";
@@ -18,7 +9,6 @@ import Input from "../UIcomponents/input";
 import fields from "../data/data.json";
 const Form = () => {
   const renderFields = (fields) => {
-    console.log(fields);
     return (
       <Stack direction="column" gap={2}>
         {fields &&
@@ -42,9 +32,8 @@ const Form = () => {
   return (
     <Box
       component="div"
-
       sx={{
-        overflowY:"scroll",
+        overflowY: "scroll",
         backgroundColor: "red",
         width: "50%",
         height: "100vh",
